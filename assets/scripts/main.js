@@ -92,14 +92,6 @@ const aboutTerminal = function () {
   typeLine()
 }
 
-const showLand = () => {
-  if ($("span:contains('cd Home')")) {
-    console.log('test')
-  }
-}
-
-showLand()
-
 module.exports = {
   terminal,
   aboutTerminal
