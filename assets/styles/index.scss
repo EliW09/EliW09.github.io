@@ -1,0 +1,107 @@
+@import '~bootstrap/scss/bootstrap';
+$termcolor: #55ff55;
+
+body {
+  background-color: black;
+  color: $termcolor;
+  font-family: monospace;
+}
+
+.output {
+  color: white;
+}
+
+.active:after {
+  content: '_';
+}
+
+[class^=devicon-] {
+  font-size: 42px;
+}
+
+.main {
+    font-size: 26px;
+    font-weight: bold;
+    text-shadow: -1px -1px 1px #000, 1px 1px 1px #000;
+    // position: relative;
+    width: auto;
+    margin: auto;
+    padding: 10.6% 0 0 0;
+    // z-index: 1;
+}
+
+.mainpage {
+  // position: relative;
+  // background: rgba(159, 162, 165, 0.7);
+  color: #fff;
+  margin: 0;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  // border-top: 1px solid #434a52;
+  // border-bottom: 1px solid #434a52;
+  // border-left: 1px solid #434a52;
+  // border-right: 1px solid #434a52;
+}
+
+#name {
+  color: $termcolor
+}
+
+.prompt {
+    position: fixed;
+    top: 28px;
+    left: 4px;
+}
+
+.aboutprompt {
+    position: fixed;
+    top: 28px;
+    left: 4px;
+}
+
+.terminal {
+  position: fixed;
+  flex: 1 0 auto;
+  width: 100%;
+  top: 28px;
+  top: 0;
+  z-index: 500;
+  // height: 140px;
+  padding: 75px 0;
+  border-bottom: 2px solid #E0E8F0;
+  border-right: 2px solid #E0E8F0;
+  border-left: 2px solid #E0E8F0;
+  background: #30353A;
+}
+
+.term-head {
+  position: fixed;
+  background: #E0E8F0;
+  height: 30px;
+  width: 100%;
+  padding-left: 10px;
+  top: 0;
+  left: 0;
+  z-index: 501;
+}
+
+.term-head .button {
+  width: 12px;
+  height: 12px;
+  margin: 10px 4px 0 0;
+  display: inline-block;
+  border-radius: 8px;
+}
+
+.term-head .button.green {
+  background: #3BB662;
+}
+
+.term-head .button.yellow {
+  background: #E5C30F;
+}
+
+.term-head .button.red {
+  background: #E75448;
+}
