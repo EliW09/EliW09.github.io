@@ -10,6 +10,9 @@ const main = require('./main.js')
 
 $(() => {
   $(document).ready(main.terminal)
+<<<<<<< HEAD
   $('#aboutme').on('click', main.aboutTerminal)
   $('#home').on('click', main.terminal)
+=======
+>>>>>>> Portfolio layout
 })

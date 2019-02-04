@@ -48,6 +48,7 @@ const terminal = function () {
   typeLine()
 }
 
+<<<<<<< HEAD
 const aboutTerminal = function () {
   $('#p3').text('cd About')
   $('#p4').text('All about me...')
@@ -95,4 +96,8 @@ const aboutTerminal = function () {
 module.exports = {
   terminal,
   aboutTerminal
+=======
+module.exports = {
+  terminal
+>>>>>>> Portfolio layout
 }

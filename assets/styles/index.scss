@@ -21,8 +21,8 @@ body {
 
 .main {
     font-size: 26px;
-    font-weight: bold;
-    text-shadow: -1px -1px 1px #000, 1px 1px 1px #000;
+    // font-weight: bold;
+    // text-shadow: -1px -1px 1px #000, 1px 1px 1px #000;
     // position: relative;
     width: auto;
     margin: auto;
@@ -45,7 +45,7 @@ body {
 }
 
 #name {
-  color: $termcolor
+  color: white;
 }
 
 .prompt {
@@ -104,4 +104,25 @@ body {
 
 .term-head .button.red {
   background: #E75448;
+}
+
+.portfolio-modal {
+  color: black;
+}
+
+.portfolio-modal a {
+  color: black;
+}
+
+.green {
+  color: $termcolor;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: $termcolor
 }
