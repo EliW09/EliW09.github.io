@@ -16,7 +16,7 @@ body {
 }
 
 [class^=devicon-] {
-  font-size: 42px;
+  font-size: 70px;
 }
 
 .main {
@@ -125,4 +125,16 @@ a {
 a:hover {
   text-decoration: none;
   color: $termcolor
+}
+
+.column {
+  float: left;
+  width: 48%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
