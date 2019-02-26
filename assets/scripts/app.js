@@ -9,7 +9,16 @@
 const main = require('./main.js')
 
 $(() => {
+  $.runOnce = true;
+  $.runOnce2 = true;
   $(document).ready(main.terminal)
   $('#aboutme').on('click', main.aboutTerminal)
   $('#home').on('click', main.terminal)
+
+  $(document).on('scroll', function() {
+    if($(this).scrollTop()>=$('.allSkills').position().top) if($.runOnce == true) {
+        main.aboutTerminal()
+        $.runOnce = false;
+    }
+})
 })
