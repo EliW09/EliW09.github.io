@@ -16,9 +16,9 @@ $(() => {
   $('#home').on('click', main.terminal)
 
   $(document).on('scroll', function() {
-    if($(this).scrollTop()>=$('.allSkills').position().top) if($.runOnce == true) {
+    if ($(this).scrollTop() >= $('.allSkills').position().top) if($.runOnce == true) {
         main.aboutTerminal()
-        $.runOnce = false;
+        $.runOnce = false
     }
 })
 })
